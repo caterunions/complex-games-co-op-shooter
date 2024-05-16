@@ -1,0 +1,83 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!21 &2100000
+Material:
+  serializedVersion: 8
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: Bot_Weak_Legs
+  m_Shader: {fileID: 4800000, guid: 7b2b1d4e586d7a148883bc20761885bf, type: 3}
+  m_ValidKeywords:
+  - _ENABLEBLOODSEED_ON
+  m_InvalidKeywords: []
+  m_LightmapFlags: 0
+  m_EnableInstancingVariants: 1
+  m_DoubleSidedGI: 0
+  m_CustomRenderQueue: -1
+  stringTagMap: {}
+  disabledShaderPasses: []
+  m_SavedProperties:
+    serializedVersion: 3
+    m_TexEnvs:
+    - _Albedo:
+        m_Texture: {fileID: 2800000, guid: cc4c21aec346da34e9d3124d7437bbd4, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _BloodMask:
+        m_Texture: {fileID: 2800000, guid: 1153974a8ecaa2146a7a336854cead0f, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _BloodNormal:
+        m_Texture: {fileID: 2800000, guid: 0e67c4399aa35924ea17771454113a88, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _Emission:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _ErosionTexture:
+        m_Texture: {fileID: 2800000, guid: 640fecfb177d27f49ae879fee9e86362, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _Metallic:
+        m_Texture: {fileID: 2800000, guid: 4dd7a222dc6feda4cb7aa139df8abb0b, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _Normal:
+        m_Texture: {fileID: 2800000, guid: 5ea263a8acbc75d43965e3dfe6986c15, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _texcoord:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    m_Ints: []
+    m_Floats:
+    - _AmbientOcclusion: 1
+    - _BloodIntensity: 1
+    - _BloodMetallicValue: 0
+    - _BloodMix: 0
+    - _BloodNormalScale: 1
+    - _BloodSeed: 0
+    - _BloodSmoothness: 0.7
+    - _EnableBloodSeed: 1
+    - _ErosionOpacity: 1
+    - _ErosionThickness: 0.15
+    - _Metallic: 0
+    - _MetallicValue: 1
+    - _NormalScale: 1
+    - _Opacity: 1
+    - _OpacityClip: 0.5
+    - _Smoothness: 1
+    - _Transparency: 1
+    - _VertexTransparency: 1
+    - __dirty: 0
+    m_Colors:
+    - _BaseColor: {r: 0.7490196, g: 0.7490196, b: 0.7490196, a: 1}
+    - _BloodTint: {r: 0.37735847, g: 0, b: 0, a: 1}
+    - _EmissionColor: {r: 4, g: 0, b: 0, a: 1}
+    - _ErosionColor: {r: 0, g: 7.529412, b: 23.96863, a: 0}
+    - _ErosionTextureChannel: {r: 1, g: 0, b: 0, a: 0}
+  m_BuildTextureStacks: []

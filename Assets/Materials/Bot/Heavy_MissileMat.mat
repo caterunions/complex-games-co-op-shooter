@@ -1,0 +1,65 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!21 &2100000
+Material:
+  serializedVersion: 8
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: Heavy_MissileMat
+  m_Shader: {fileID: 4800000, guid: a762e89b37a6ca641bcc98310f63e4dc, type: 3}
+  m_ValidKeywords: []
+  m_InvalidKeywords: []
+  m_LightmapFlags: 0
+  m_EnableInstancingVariants: 1
+  m_DoubleSidedGI: 0
+  m_CustomRenderQueue: -1
+  stringTagMap: {}
+  disabledShaderPasses: []
+  m_SavedProperties:
+    serializedVersion: 3
+    m_TexEnvs:
+    - _Albedo:
+        m_Texture: {fileID: 2800000, guid: 0b72710721dd08d40947c9182220e582, type: 3}
+        m_Scale: {x: 1, y: 2}
+        m_Offset: {x: 0, y: 0}
+    - _Emission:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _ErosionTexture:
+        m_Texture: {fileID: 2800000, guid: 640fecfb177d27f49ae879fee9e86362, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _Metallic:
+        m_Texture: {fileID: 2800000, guid: e706612f06e50974fbb03ef3b475820a, type: 3}
+        m_Scale: {x: 1, y: 2}
+        m_Offset: {x: 0, y: 0}
+    - _Normal:
+        m_Texture: {fileID: 2800000, guid: 0f0f5b2cafa7d7c429d55052fb48c3dd, type: 3}
+        m_Scale: {x: 1, y: 2}
+        m_Offset: {x: 0, y: 0}
+    - _texcoord:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    m_Ints: []
+    m_Floats:
+    - _ErosionOpacity: 1
+    - _ErosionThickness: 0.15
+    - _Metallic: 0
+    - _MetallicValue: 1
+    - _NormalScale: 1
+    - _Opacity: 1
+    - _OpacityClip: 0.5
+    - _Smoothness: 1
+    - _Transparency: 1
+    - _VertexTransparency: 1
+    - __dirty: 0
+    m_Colors:
+    - _BaseColor: {r: 0.24833864, g: 0.09545213, b: 0.31132078, a: 1}
+    - _EmissionColor: {r: 0, g: 0, b: 0, a: 1}
+    - _ErosionColor: {r: 0, g: 14.6663885, b: 23.968628, a: 0}
+    - _ErosionTextureChannel: {r: 1, g: 0, b: 0, a: 0}
+  m_BuildTextureStacks: []
